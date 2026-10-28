@@ -62,27 +62,27 @@
             // 
             button1.BackColor = SystemColors.ControlDark;
             button1.ForeColor = Color.Red;
-            button1.Location = new Point(92, 66);
+            button1.Location = new Point(92, 75);
             button1.Name = "button1";
-            button1.Size = new Size(113, 40);
+            button1.Size = new Size(113, 45);
             button1.TabIndex = 0;
             button1.Text = "Backspace";
             button1.UseVisualStyleBackColor = false;
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(28, 21);
+            textBox1.Location = new Point(12, 22);
             textBox1.Name = "textBox1";
-            textBox1.Size = new Size(384, 23);
+            textBox1.Size = new Size(384, 25);
             textBox1.TabIndex = 1;
             // 
             // button2
             // 
             button2.BackColor = SystemColors.ControlDark;
             button2.ForeColor = Color.Red;
-            button2.Location = new Point(28, 112);
+            button2.Location = new Point(28, 127);
             button2.Name = "button2";
-            button2.Size = new Size(43, 50);
+            button2.Size = new Size(43, 57);
             button2.TabIndex = 2;
             button2.Text = "MC";
             button2.UseVisualStyleBackColor = false;
@@ -92,20 +92,21 @@
             // 
             button3.BackColor = SystemColors.ControlDark;
             button3.ForeColor = Color.Blue;
-            button3.Location = new Point(162, 112);
+            button3.Location = new Point(162, 127);
             button3.Name = "button3";
-            button3.Size = new Size(43, 50);
+            button3.Size = new Size(43, 57);
             button3.TabIndex = 3;
             button3.Text = "8";
             button3.UseVisualStyleBackColor = false;
+            button3.Click += button3_Click;
             // 
             // button4
             // 
             button4.BackColor = SystemColors.ControlDark;
             button4.ForeColor = Color.Blue;
-            button4.Location = new Point(223, 244);
+            button4.Location = new Point(223, 277);
             button4.Name = "button4";
-            button4.Size = new Size(43, 49);
+            button4.Size = new Size(43, 56);
             button4.TabIndex = 4;
             button4.Text = "3";
             button4.UseVisualStyleBackColor = false;
@@ -115,9 +116,9 @@
             // 
             button5.BackColor = SystemColors.ControlDark;
             button5.ForeColor = Color.Red;
-            button5.Location = new Point(223, 304);
+            button5.Location = new Point(223, 345);
             button5.Name = "button5";
-            button5.Size = new Size(43, 53);
+            button5.Size = new Size(43, 60);
             button5.TabIndex = 5;
             button5.Text = ".";
             button5.UseVisualStyleBackColor = false;
@@ -126,9 +127,9 @@
             // 
             button6.BackColor = SystemColors.ControlDark;
             button6.ForeColor = Color.Red;
-            button6.Location = new Point(283, 303);
+            button6.Location = new Point(283, 343);
             button6.Name = "button6";
-            button6.Size = new Size(43, 50);
+            button6.Size = new Size(43, 57);
             button6.TabIndex = 6;
             button6.Text = "+";
             button6.UseVisualStyleBackColor = false;
@@ -138,9 +139,9 @@
             // 
             button7.BackColor = SystemColors.ControlDark;
             button7.ForeColor = Color.Red;
-            button7.Location = new Point(342, 306);
+            button7.Location = new Point(342, 347);
             button7.Name = "button7";
-            button7.Size = new Size(43, 47);
+            button7.Size = new Size(43, 53);
             button7.TabIndex = 7;
             button7.Text = "=";
             button7.UseVisualStyleBackColor = false;
@@ -149,9 +150,9 @@
             // 
             button8.BackColor = SystemColors.ControlDark;
             button8.ForeColor = Color.Red;
-            button8.Location = new Point(283, 244);
+            button8.Location = new Point(283, 277);
             button8.Name = "button8";
-            button8.Size = new Size(43, 49);
+            button8.Size = new Size(43, 56);
             button8.TabIndex = 8;
             button8.Text = "-";
             button8.UseVisualStyleBackColor = false;
@@ -160,9 +161,9 @@
             // 
             button9.BackColor = SystemColors.ControlDark;
             button9.ForeColor = Color.Red;
-            button9.Location = new Point(342, 244);
+            button9.Location = new Point(342, 277);
             button9.Name = "button9";
-            button9.Size = new Size(43, 49);
+            button9.Size = new Size(43, 56);
             button9.TabIndex = 9;
             button9.Text = "()";
             button9.UseVisualStyleBackColor = false;
@@ -172,9 +173,9 @@
             // 
             button10.BackColor = SystemColors.ControlDark;
             button10.ForeColor = Color.Red;
-            button10.Location = new Point(283, 177);
+            button10.Location = new Point(283, 201);
             button10.Name = "button10";
-            button10.Size = new Size(43, 51);
+            button10.Size = new Size(43, 58);
             button10.TabIndex = 10;
             button10.Text = "*";
             button10.UseVisualStyleBackColor = false;
@@ -183,9 +184,9 @@
             // 
             button11.BackColor = SystemColors.ControlDark;
             button11.ForeColor = Color.Red;
-            button11.Location = new Point(342, 177);
+            button11.Location = new Point(342, 201);
             button11.Name = "button11";
-            button11.Size = new Size(43, 51);
+            button11.Size = new Size(43, 58);
             button11.TabIndex = 11;
             button11.Text = "%";
             button11.UseVisualStyleBackColor = false;
@@ -195,9 +196,9 @@
             // 
             button12.BackColor = SystemColors.ControlDark;
             button12.ForeColor = Color.Red;
-            button12.Location = new Point(342, 112);
+            button12.Location = new Point(342, 127);
             button12.Name = "button12";
-            button12.Size = new Size(43, 50);
+            button12.Size = new Size(43, 57);
             button12.TabIndex = 12;
             button12.Text = "sqrt";
             button12.UseVisualStyleBackColor = false;
@@ -206,9 +207,9 @@
             // 
             button13.BackColor = SystemColors.ControlDark;
             button13.ForeColor = Color.Red;
-            button13.Location = new Point(283, 112);
+            button13.Location = new Point(283, 127);
             button13.Name = "button13";
-            button13.Size = new Size(43, 50);
+            button13.Size = new Size(43, 57);
             button13.TabIndex = 13;
             button13.Text = "/";
             button13.UseVisualStyleBackColor = false;
@@ -217,9 +218,9 @@
             // 
             button14.BackColor = SystemColors.ControlDark;
             button14.ForeColor = Color.Blue;
-            button14.Location = new Point(223, 177);
+            button14.Location = new Point(223, 201);
             button14.Name = "button14";
-            button14.Size = new Size(43, 51);
+            button14.Size = new Size(43, 58);
             button14.TabIndex = 14;
             button14.Text = "6";
             button14.UseVisualStyleBackColor = false;
@@ -228,9 +229,9 @@
             // 
             button15.BackColor = SystemColors.ControlDark;
             button15.ForeColor = Color.Blue;
-            button15.Location = new Point(223, 112);
+            button15.Location = new Point(223, 127);
             button15.Name = "button15";
-            button15.Size = new Size(43, 50);
+            button15.Size = new Size(43, 57);
             button15.TabIndex = 15;
             button15.Text = "9";
             button15.UseVisualStyleBackColor = false;
@@ -240,9 +241,9 @@
             // 
             button16.BackColor = SystemColors.ControlDark;
             button16.ForeColor = Color.Red;
-            button16.Location = new Point(162, 306);
+            button16.Location = new Point(162, 347);
             button16.Name = "button16";
-            button16.Size = new Size(43, 53);
+            button16.Size = new Size(43, 60);
             button16.TabIndex = 16;
             button16.Text = "^2";
             button16.UseVisualStyleBackColor = false;
@@ -252,9 +253,9 @@
             // 
             button17.BackColor = SystemColors.ControlDark;
             button17.ForeColor = Color.Blue;
-            button17.Location = new Point(162, 244);
+            button17.Location = new Point(162, 277);
             button17.Name = "button17";
-            button17.Size = new Size(43, 49);
+            button17.Size = new Size(43, 56);
             button17.TabIndex = 17;
             button17.Text = "2";
             button17.UseVisualStyleBackColor = false;
@@ -264,9 +265,9 @@
             // 
             button18.BackColor = SystemColors.ControlDark;
             button18.ForeColor = Color.Blue;
-            button18.Location = new Point(162, 177);
+            button18.Location = new Point(162, 201);
             button18.Name = "button18";
-            button18.Size = new Size(43, 51);
+            button18.Size = new Size(43, 58);
             button18.TabIndex = 18;
             button18.Text = "5";
             button18.UseVisualStyleBackColor = false;
@@ -275,9 +276,9 @@
             // 
             button19.BackColor = SystemColors.ControlDark;
             button19.ForeColor = Color.Blue;
-            button19.Location = new Point(92, 112);
+            button19.Location = new Point(92, 127);
             button19.Name = "button19";
-            button19.Size = new Size(43, 50);
+            button19.Size = new Size(43, 57);
             button19.TabIndex = 19;
             button19.Text = "7";
             button19.UseVisualStyleBackColor = false;
@@ -286,9 +287,9 @@
             // 
             button20.BackColor = SystemColors.ControlDark;
             button20.ForeColor = Color.Blue;
-            button20.Location = new Point(92, 177);
+            button20.Location = new Point(92, 201);
             button20.Name = "button20";
-            button20.Size = new Size(43, 51);
+            button20.Size = new Size(43, 58);
             button20.TabIndex = 20;
             button20.Text = "4";
             button20.UseVisualStyleBackColor = false;
@@ -297,9 +298,9 @@
             // 
             button21.BackColor = SystemColors.ControlDark;
             button21.ForeColor = Color.Blue;
-            button21.Location = new Point(92, 244);
+            button21.Location = new Point(92, 277);
             button21.Name = "button21";
-            button21.Size = new Size(43, 49);
+            button21.Size = new Size(43, 56);
             button21.TabIndex = 21;
             button21.Text = "1";
             button21.UseVisualStyleBackColor = false;
@@ -308,9 +309,9 @@
             // 
             button22.BackColor = SystemColors.ControlDark;
             button22.ForeColor = Color.Red;
-            button22.Location = new Point(92, 307);
+            button22.Location = new Point(92, 348);
             button22.Name = "button22";
-            button22.Size = new Size(43, 52);
+            button22.Size = new Size(43, 59);
             button22.TabIndex = 22;
             button22.Text = "0";
             button22.UseVisualStyleBackColor = false;
@@ -320,9 +321,9 @@
             // 
             button23.BackColor = SystemColors.ControlDark;
             button23.ForeColor = Color.Red;
-            button23.Location = new Point(28, 307);
+            button23.Location = new Point(28, 348);
             button23.Name = "button23";
-            button23.Size = new Size(43, 50);
+            button23.Size = new Size(43, 57);
             button23.TabIndex = 23;
             button23.Text = "M+";
             button23.UseVisualStyleBackColor = false;
@@ -331,9 +332,9 @@
             // 
             button24.BackColor = SystemColors.ControlDark;
             button24.ForeColor = Color.Red;
-            button24.Location = new Point(28, 244);
+            button24.Location = new Point(28, 277);
             button24.Name = "button24";
-            button24.Size = new Size(43, 49);
+            button24.Size = new Size(43, 56);
             button24.TabIndex = 24;
             button24.Text = "MS";
             button24.UseVisualStyleBackColor = false;
@@ -343,9 +344,9 @@
             // 
             button25.BackColor = SystemColors.ControlDark;
             button25.ForeColor = Color.Red;
-            button25.Location = new Point(28, 177);
+            button25.Location = new Point(28, 201);
             button25.Name = "button25";
-            button25.Size = new Size(43, 51);
+            button25.Size = new Size(43, 58);
             button25.TabIndex = 25;
             button25.Text = "MA";
             button25.UseVisualStyleBackColor = false;
@@ -354,9 +355,9 @@
             // 
             button26.BackColor = SystemColors.ControlDark;
             button26.ForeColor = Color.Red;
-            button26.Location = new Point(223, 66);
+            button26.Location = new Point(223, 75);
             button26.Name = "button26";
-            button26.Size = new Size(53, 40);
+            button26.Size = new Size(53, 45);
             button26.TabIndex = 26;
             button26.Text = "CE";
             button26.UseVisualStyleBackColor = false;
@@ -365,19 +366,19 @@
             // 
             button27.BackColor = SystemColors.ControlDark;
             button27.ForeColor = Color.Red;
-            button27.Location = new Point(283, 66);
+            button27.Location = new Point(283, 75);
             button27.Name = "button27";
-            button27.Size = new Size(102, 40);
+            button27.Size = new Size(102, 45);
             button27.TabIndex = 27;
             button27.Text = "C";
             button27.UseVisualStyleBackColor = false;
             // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(7F, 17F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ButtonFace;
-            ClientSize = new Size(401, 402);
+            ClientSize = new Size(430, 456);
             Controls.Add(button27);
             Controls.Add(button26);
             Controls.Add(button25);
